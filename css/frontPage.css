@@ -1,0 +1,77 @@
+body, html {
+	height: 100%;
+	overflow: hidden;
+}
+#content {
+	height: 100%;
+}
+#footer{
+	width: 100%;
+	height: 60px;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: 0.5px 0.5px 0.5px #000000;
+	font-size: 60%;
+	background-color: grey;
+	position: relative;
+	bottom: 100px;
+}
+#left {
+    /*background-color: #FFFFFF;*/
+    color: white;
+    height: 20%;
+    position: fixed;
+    width: 19%;
+    left: 1%;
+}
+#middle {
+    /*background-color: #FFFFFF;*/
+    height: 20%;
+    position: fixed;
+    width: 15%;
+    left: 21%;
+    color: white;
+}
+#right {
+    /*background-color: #FFFFFF;*/
+    height: 75%;
+    position: fixed;
+    width: 35%;
+    left: 64%;
+    color: white;
+    bottom: 10%;
+}
+div.link {
+    float: left;
+    height: 45px;
+    padding: 0 5px;
+    /* width: 140px; */
+    z-index: 0;
+}
+div.button-sizer {
+	background-color: black;
+	width: 0px;
+	height: 20px;
+	position: relative;
+	left: 0px;
+	z-index: 2;
+	float: left;
+}
+
+a.nav-button {
+    z-index: 410;
+    float: left;
+    position:  relative;
+}
+
+.plain{
+	list-style: none;
+}
+#map_canvas {
+    bottom: 1%;
+    color: #FFFFFF;
+    height: 75%;
+    left: 54%;
+    position: fixed;
+    width: 45%;
+}
