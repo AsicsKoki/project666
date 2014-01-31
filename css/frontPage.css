@@ -42,6 +42,8 @@ body, html {
     left: 64%;
     color: white;
     bottom: 10%;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 div.link {
     float: left;
@@ -81,4 +83,9 @@ a.nav-button {
     border-color: black;
     border-width: 1.5px;
     border-radius: 5px;
+}
+#section1, #section2, #section3, #section4, #section5, #section6 {
+}
+#section6 {
+    margin-bottom:10px;
 }
