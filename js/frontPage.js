@@ -4,18 +4,18 @@ jQuery(document).ready(function($) {
     sizer.width(left);
     sizer.width(0);
 
-    $('a').hoverIntent(function(){
-        sizer.animate({
+    $('a.nav-button').hoverIntent(function(){
+        $(this).siblings("div.button-sizer").animate({
             width: left
         }, 300);
-        $('a').animate({
+        $(this).animate({
             right: left
         }, 300);
     }, function() {
-        sizer.animate({
+        $(this).siblings("div.button-sizer").animate({
             width: 0
         }, 300);
-        $('a').animate({
+        $(this).animate({
             right: 0
         }, 300);
     }
