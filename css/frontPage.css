@@ -74,4 +74,7 @@ a.nav-button {
     left: 54%;
     position: fixed;
     width: 45%;
+    border: solid;
+    border-color: black;
+    border-width: 0.5px;
 }

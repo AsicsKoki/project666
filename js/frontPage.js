@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
     sizer.width(left);
     sizer.width(0);
 
-    $('a').hover(function(){
+    $('a').hoverIntent(function(){
         sizer.animate({
             width: left
         }, 300);
