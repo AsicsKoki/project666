@@ -42,7 +42,7 @@ body, html {
     left: 64%;
     color: white;
     bottom: 10%;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 div.link {
