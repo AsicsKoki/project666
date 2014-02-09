@@ -92,3 +92,10 @@ a.nav-button {
     height: 60px;
     width: 60px;
 }
+.textBox{
+    height: 100px;
+    position: relative;
+    right: -2%;
+    top: 10%;
+    width: 390px;
+}
